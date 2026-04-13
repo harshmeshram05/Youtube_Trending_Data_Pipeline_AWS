@@ -19,25 +19,9 @@ This project demonstrates how to build a **scalable, automated data pipeline** u
 
 ## 🏗️ Architecture
 
-```
-Amazon EventBridge (Schedule)
-        ↓
-AWS Lambda (YouTube API Ingestion)
-        ↓
-Amazon S3 (Bronze Layer - Raw JSON)
-        ↓
-AWS Glue Job (Bronze → Silver)
-        ↓
-Amazon S3 (Silver Layer - Cleaned Data)
-        ↓
-AWS Glue Job (Silver → Gold)
-        ↓
-Amazon S3 (Gold Layer - Aggregated Data)
-        ↓
-Amazon Athena (Query Layer)
-        ↓
-BI Tools (Optional: QuickSight)
-```
+
+![Project_Architecture](https://github.com/user-attachments/assets/162c9ed6-0eb2-43b5-aa14-18f03e1c47a0)
+
 
 ---
 
